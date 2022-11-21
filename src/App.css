@@ -19,3 +19,15 @@ section{
   font-size: 10vw;
   border-bottom: 1px solid #666;
 }
+
+#navBar{
+  background-color:green;
+  display: flex;
+  flex-direction: row;
+  align-items:center
+}
+
+.ligneSommaire{
+  display:inline;
+  padding: 20px;
+}
