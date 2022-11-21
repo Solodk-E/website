@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect, useRef } from 'react';
+import { gsap} from 'gsap';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section id="navBar">
+        Navbar
+      </section>
+      <section className="nextSection">
+        <div id="page1" className="page">
+          A propos
+        </div>
+        <div id="page2" className="page">
+          Experience
+        </div>
+        <div id="page3" className="page">
+          Réalisations
+        </div>
+        <div id="page4" className="page">
+          Etudes
+        </div>
+        <div id="page5" className="page">
+          Contact
+        </div>
+      </section>
+      <section id="mailLink">
+        Lien mail
+      </section>
+      <section id="social">
+        Social
+      </section>
     </div>
   );
 }
