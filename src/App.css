@@ -97,7 +97,10 @@ section{
   width: 30px;
   height:33vh;
   justify-content: flex-start;
-  gap:30px
+  gap:30px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -105,8 +108,14 @@ section{
 color:green;
 border: 1px solid black;
 width: 90%;
-height:33px
-
-
-
+height:33px;
+margin-top: 4px
 }
+
+.icon:hover{
+  transform: translateY(-3px);  
+  }
+
+  .icon:hover{
+    transform: translateY(-3px);  
+  }  

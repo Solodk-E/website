@@ -12,6 +12,9 @@ function App() {
         <Navbar/>
     
       <section className="nextSection">
+      <div id="page1" className="page">
+          Accroche
+        </div>
         <div id="page1" className="page">
           A propos
         </div>
