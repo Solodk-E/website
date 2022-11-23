@@ -60,14 +60,14 @@ section{
 
 }
 #homeLogo{
-  margin-left: 5%;
+  margin-left: 3%;
   color: #61DAFB; 
 }
 
 #blocDroitNav{
   display: flex;
   flex-direction: row;
-  margin-right: 5%;
+  margin-right: 3%;
   justify-content: space-evenly;
   width: 50%;
 
