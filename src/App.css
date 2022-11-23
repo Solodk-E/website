@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body{
+  width: 100%;
+
+}
+
 section{
   display: flex;
   width:100vw;
@@ -9,6 +14,7 @@ section{
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
+  width:100%
 }
 
 .page{
@@ -18,7 +24,8 @@ section{
   min-height: 50vh;
   font-size: 10vw;
   border-bottom: 1px solid #666;
-  height:100vh
+  height:100vh;
+  width:100%
 }
 
 #navBar{
@@ -56,14 +63,14 @@ section{
 
 }
 #homeLogo{
-  margin-left: 5%;
+  margin-left: 3%;
   color: #61DAFB; 
 }
 
 #blocDroitNav{
   display: flex;
   flex-direction: row;
-  margin-right: 5%;
+  margin-right: 3%;
   justify-content: space-evenly;
   width: 50%;
 
@@ -78,7 +85,6 @@ section{
   align-content: center;
   align-self:center;
   padding-top: 5px;
-  text-decoration: none;
 
 }
 
@@ -100,10 +106,13 @@ section{
   flex-direction: column;
   background-color: #0A192F;
   width: 30px;
-  height:40vh;
-  justify-content: flex-start;
+  height:50vh;
+  justify-content: space-between;
   gap:30px;
- 
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding-top:3px;
 
 }
 
@@ -129,7 +138,7 @@ height:33px
 
 }
 
-.mailRedac{
+#mailRedac{
 color:#61DAFB;
 writing-mode: vertical-rl;
 text-orientation: mixed;
@@ -138,3 +147,17 @@ height:50%;
 align-self: center;
 
 }
+
+a:link{
+  text-decoration: none;
+}
+
+#mailRedac:hover{
+  transform: translateY(-3px);
+}
+
+.icon:hover{
+  transform: translateY(-3px);  
+  }
+ 
+

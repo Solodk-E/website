@@ -1,9 +1,13 @@
 import React from 'react'
 
 function Mail() {
+
+const email="solodk-e-dev@gmail.com"
+
+
   return (
     <section id="mailLink">
-        <div className="mailRedac">solodk-e-dev@gmail.com</div>
+        <a id="mailRedac" href={`mailto:${email}`}>{email}</a>
         <div className="finbarre"></div>
       </section>
   )
