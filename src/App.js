@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 import { gsap} from 'gsap';
 import Navbar from './Navbar';
 import Social from './Social';
-
+import Mail from './Mail';
 
 function App() {
   return (
@@ -28,9 +28,7 @@ function App() {
           Contact
         </div>
       </section>
-      <section id="mailLink">
-        Lien mail
-      </section>
+      <Mail/>
       <Social/>
     </div>
   );
