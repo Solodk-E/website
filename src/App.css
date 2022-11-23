@@ -18,4 +18,103 @@ section{
   min-height: 50vh;
   font-size: 10vw;
   border-bottom: 1px solid #666;
+  height:100vh
+}
+
+#navBar{
+  background-color:#0A192F;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  position: fixed;
+  top:0;
+  z-index: 11;
+  width: 100%;
+  height: var(--nav-height);
+  pointer-events: auto !important;
+  user-select: auto !important;
+  backdrop-filter: blur(10px);
+  transition: var(--transition);
+  
+}
+
+
+
+.ligneSommaire{
+  display:inline;
+  margin-left: 10px;
+  font-size: small;
+  color: #C1CBEB;
+    
+
+}
+
+.ligneSommaire:hover{
+  color: #61DAFB;
+}
+
+.buttonMenu{
+  color: #61DAFB;
+
+
+}
+#homeLogo{
+  margin-left: 5%;
+  color: #61DAFB; 
+}
+
+#blocDroitNav{
+  display: flex;
+  flex-direction: row;
+  margin-right: 5%;
+  justify-content: space-evenly;
+  width: 50%;
+
+
+}
+#resume{
+  border: 1px solid #61DAFB;
+  border-radius: 5px;
+  color: #61DAFB; 
+  height: 30px;
+  width: 20%;
+  align-content: center;
+  align-self:center;
+  padding-top: 5px;
+  text-decoration: none;
+
+}
+
+#finbarre{
+  
+  height:50%;
+  width: 1%;
+  border:1px solid #61DAFB;;
+  align-self: center;
+  
+
+}
+
+#social{
+  position: fixed;
+  bottom:0;
+  left: 5%;
+  display:flex;
+  flex-direction: column;
+  background-color: #0A192F;
+  width: 30px;
+  height:33vh;
+  justify-content: flex-start;
+  gap:30px;
+ 
+
+}
+
+
+
+.icon{
+color:#61DAFB;
+width: 90%;
+height:33px
 }

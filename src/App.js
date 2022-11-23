@@ -1,15 +1,16 @@
 import './App.css';
 import { useEffect, useRef } from 'react';
 import { gsap} from 'gsap';
-import Mail from './Mail';
+import Navbar from './Navbar';
+import Social from './Social';
 
 
 function App() {
   return (
     <div className="App">
-      <section id="navBar">
-        Navbar
-      </section>
+      
+        <Navbar/>
+    
       <section className="nextSection">
         <div id="page1" className="page">
           A propos
@@ -27,10 +28,10 @@ function App() {
           Contact
         </div>
       </section>
-      <Mail/>
-      <section id="social">
-        Social
+      <section id="mailLink">
+        Lien mail
       </section>
+      <Social/>
     </div>
   );
 }
