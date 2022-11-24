@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Social from './Social';
 import Mail from './Mail';
 import Accroche from './Accroche';
+import APropos from './APropos';
 
 function App() {
   return (
@@ -14,9 +15,7 @@ function App() {
     
       <section className="nextSection">
         <Accroche/>
-        <div id="page1" className="page">
-          A propos
-        </div>
+        <APropos/>
         <div id="page2" className="page">
           Experience
         </div>

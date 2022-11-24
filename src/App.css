@@ -169,7 +169,7 @@ a:link{
   color: #61DAFB;  
   }
  
-#page1{
+#page0{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -225,4 +225,24 @@ a:link{
   align-content: flex-start;
   text-align: left;
   margin-top: 2%;
+}
+
+#page1{
+  font-size: large;
+  color: white
+}
+
+#aprops{
+  display: flex;
+  flex-direction: column;
+}
+
+#corpus{
+  display: flex;
+  flex-direction: row;
+}
+
+#leftCorpus{
+  display: flex;
+  flex-direction: column;
 }

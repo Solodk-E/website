@@ -2,7 +2,7 @@ import React from 'react'
 
 function Accroche() {
   return (
-    <div id="page1" className="page">
+    <div id="page0" className="page">
           <h1 id="hello">Bonjour, je suis</h1>
           <h2 id="whoAmI">
             <div id="myId">prénom nom</div>
