@@ -15,9 +15,16 @@ function APropos() {
 <p>Nulla laborum deserunt amet qui incididunt anim quis ex aute. Non culpa tempor tempor ea laboris. Fugiat nulla magna consectetur est non sint ipsum est voluptate nulla.</p>
 
 </div>
-                    <div id="stackTechnique">
+                    
+                </div>
+                <div id="rightCorpus">
+                  <img  id="photoProfil2" src="photoProfil.jpg" alt="Elton Solodki dev fullstack Node-React-React Native"/>
+                 <div id="cadre"></div>
+                </div>
+            </div>
+            <div id="stackTechnique">
                       <div className="colTech">
-                        <ul>
+                        <ul className='colList'>
                           <li>Javascript</li>
                           <li>HTML CSS</li>
                           <li>Boostrap, Ant Design</li>
@@ -26,7 +33,7 @@ function APropos() {
                       </div>
                       <div>
                       <div className="colTech">
-                        <ul>
+                        <ul className='colList'>
                           <li>React JS</li>
                           <li>React Native</li>
                           <li>Node JS </li>
@@ -34,20 +41,13 @@ function APropos() {
                       </div>
                       </div>
                       <div className="colTech">
-                        <ul>
+                        <ul className='colList'>
                           <li>MongoDB</li>
                           <li>Git Github Gitlab</li>
                           <li>Agilité (Kanban, daily etc)</li>
                         </ul>
                       </div>
                     </div>
-                </div>
-                <div id="rightCorpus">
-                  <img  id="photoProfil2" src="photoProfil.jpg" alt="Elton Solodki dev fullstack Node-React-React Native"/>
-                 <div id="cadre"></div>
-                </div>
-            </div>
-
         </div>
 
     </div>
