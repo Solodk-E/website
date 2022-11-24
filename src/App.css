@@ -8,13 +8,19 @@ body{
 }
 
 section{
+
+}
+
+.nextSection{
   display: flex;
   width:100vw;
-  background: #EEE;
+  background-color: #0A192F;
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
-  width:100%
+  width:100%;
+  align-items: center;
+
 }
 
 .page{
@@ -25,7 +31,8 @@ section{
   font-size: 10vw;
   border-bottom: 1px solid #666;
   height:100vh;
-  width:100%
+  width:70%;
+  background-color: #0A192F;
 }
 
 #navBar{
@@ -101,7 +108,7 @@ section{
 #social{
   position: fixed;
   bottom:0;
-  left: 5%;
+  left: 3%;
   display:flex;
   flex-direction: column;
   background-color: #0A192F;
@@ -127,7 +134,7 @@ height:33px
 #mailLink{
   position: fixed;
   bottom:0;
-  right: 5%;
+  right: 3%;
   display:flex;
   flex-direction: column;
   background-color: #0A192F;
@@ -162,4 +169,60 @@ a:link{
   color: #61DAFB;  
   }
  
+#page1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 5%;
+  padding-top: 8%;
+}
 
+#hello{
+  
+  color: #61DAFB;
+    font-family: var(--font-mono);
+    font-size: large;
+    font-weight: 400;
+    text-align: left;
+    
+
+}
+
+#whoAmI{
+  margin-top: 10px;
+  color:#C1CBEB;
+  line-height: 0.9;
+  font-size:52%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height:15%;
+  
+}
+
+#myId{
+  color:#C1CBEB;
+  line-height: 0.9;
+  text-align: left;
+  height: 50%;
+}
+
+#slogan{
+  margin-top: 10px;
+  color: var(--slate);
+  line-height: 0.9;
+  color:#c1cbeb66;
+  text-align: left;
+  margin-top: 3%;
+  height: 50%;
+}
+
+#presentation{
+  
+  max-width: 540px;
+  font-size: large;
+  color:#C1CBEB;
+  align-content: flex-start;
+  text-align: left;
+  margin-top: 2%;
+}

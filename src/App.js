@@ -4,6 +4,7 @@ import { gsap} from 'gsap';
 import Navbar from './Navbar';
 import Social from './Social';
 import Mail from './Mail';
+import Accroche from './Accroche';
 
 function App() {
   return (
@@ -12,9 +13,7 @@ function App() {
         <Navbar/>
     
       <section className="nextSection">
-      <div id="page1" className="page">
-          Accroche
-        </div>
+        <Accroche/>
         <div id="page1" className="page">
           A propos
         </div>
