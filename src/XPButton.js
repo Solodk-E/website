@@ -1,16 +1,26 @@
-import React from 'react'
+import React,{ useEffect, useState } from "react"
+
 
 function XPButton(props) {
 
-    var activateJob=(name, enterprise, description, titre, date, task)=>{
-        props.propButton(name, enterprise, description, titre, date, task)
-        // console.log(props.propTask)
-      
+  const [style,setStyle]=useState("xpButton")
+
+ 
+
+    var activateJob=(active, name, entreprise, description, titre, date, task)=>{
+        props.propButton(active, name, entreprise, description, titre, date, task)
+        console.log("button"+active)
+       
+        
+  
+
     }
 
-
+  
+    
+    
   return (
-    <div id="xpButton" onClick={()=>activateJob(props.propName, props.propEnterprise, props.propDescription, props.propTitre, props.propDate, props.propTask)}>{props.propName}</div>
+    <div id={style} onClick={()=>activateJob(props.propActive, props.propName, props.propEntreprise, props.propDescription, props.propTitre, props.propDate, props.propTask)}>{props.propName}</div>
   )
 }
 

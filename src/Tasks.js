@@ -2,7 +2,7 @@ import React from 'react'
 
 function Tasks(props) {
   return (
-    <div>{props.propDesc}</div>
+    <div id="aTask">{props.propATask}</div>
   )
 }
 

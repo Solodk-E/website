@@ -1,53 +1,40 @@
 import React, { useEffect, useState } from 'react'
 import XPButton from './XPButton'
-import Tasks from './Tasks';
-
-function Experience() {
-
-    const [jobs, setJobs]=useState([{active: false, name:"job1", description:"Loremdfsdfdsfdfs",titre:"dev", task:[{point:"tack1"},{point:"task2"}],entreprise: "Insee", date: "2022" }, 
-                                    {active: false, name:"job2", description:"Loremdfsdfdsfdfs",titre:"dev", task:[{point:"tack2"},{point:"task3"}],entreprise: "Insee", date: "2022"}, 
-                                    {active: false,  name:"job3", description:"Loremdfsdfdsfdfs",titre:"dev", task:[{point:"tack4"},{point:"task4"}],entreprise: "Insee", date: "2022"}])
-
-    const [jobActive, setJobActive]=useState({});
-
-    const [tasks, setTasks]=useState([]);
+import JobCard from './JobCard';
 
 
-    var affichActiveJob = (name, enterprise, description, titre, date, task) =>{
-        // setJobActive({name:"job1", description:"Loremdfsdfdsfdfs",titre:"dev", entreprise: "Insee", date: "2022" })
+var dataJobs=[{active: false, name:"job1", description:"Deserunt deserunt et mollit cupidatat labore aliqua excepteur tempor. Consectetur non adipisicing enim ut sunt. Amet ad in et tempor culpa nostrud. Tempor velit aliqua consectetur eu voluptate amet consectetur aliqua amet velit officia. Ullamco qui in amet cupidatat ad esse cupidatat et laboris. Pariatur dolore quis in qui voluptate sit sunt fugiat tempor aliquip aute. Officia non do duis exercitation et.",titre:"dev", task:["task1", "task2"], entreprise: "Insee", date: "2022" }, 
+{active: false, name:"job2", description:"Lorsfsdffdfs",titre:"dev2", task:["task3", "task4"],entreprise: "Insee", date: "2022"}, 
+{active: false,  name:"job3", description:"sdfsdffdsfdfs",titre:"dev3", task:["task5", "task6"],entreprise: "Educ", date: "2022"}]
+
+function Experience(props) {
+
+    const [jobs, setJobs]=useState(dataJobs)
+
+    const [jobActive, setJobActive]=useState({active: true, name:"job1", description:"Loremdfsdfdsfdfs",titre:"dev", task:["task1", "task2"], entreprise: "Insee", date: "2022" });
+
+
+
+    var affichActiveJob = (active, name, entreprise, description, titre, date, task) =>{
+        
+        jobs.forEach(element=>{
+            element.active=false
+        })
+        setJobActive({active:true, name:name, entreprise:entreprise, description:description, titre:titre, date:date, task:task});
+        
+      
        
-        setJobActive({name:name, enterprise:enterprise, description:description, titre:titre, date:date, task:task});
-        setTasks()
-        setTasks([jobActive.task])
-        console.log(tasks)   
     }
 
-    useEffect(()=>{
-        affichActiveJob()
-        
-    },[])
-
-    // var affichSelectedJob=jobActive.map(element=>{
-    //     return(
-    //         <div>
-    //             <div id="titreXP">{element.name}</div>
-    //             <div id="periodeXP">{element.date}</div>
-    //             <div id="descriptionXP">{element.description}</div>
-    //         </div>
-    //     )
-    // })
-
-    var affTasks= tasks.map(element=>{
-        return(
-            <Tasks propPoint={element.point}/>
-
-        )
-    })
     
+  
+
+
+  
 
     var setJobsButtons = jobs.map(element=>{
         return (
-            <div>
+            
             <XPButton 
             propButton={affichActiveJob}
             propActive={element.active}
@@ -57,23 +44,13 @@ function Experience() {
             propEntreprise={element.entreprise}
             propDate={element.date}
             propTask={element.task}
-                    />
-            <Tasks
-                propDesc={element.task}/>
-            </div>
+            />
+            
         )
     })
 
-    var affichTask=jobActive.task.map(element=>{
-        return(
-            <div>
-                <Tasks/>    
-
-            </div>
-        )
-
-    })
-
+   
+    
 
   return (
     <div id="page2" className="page">
@@ -83,11 +60,17 @@ function Experience() {
                 {setJobsButtons}
             </div>
             <div id="affichXP">
-                <div>
-                    {jobActive.description}
-                </div>
-                <div>
-                {affichTask}                  </div>
+            <JobCard
+               propName={jobActive.name}
+               propDesc={jobActive.description}
+               propTitre={jobActive.titre}
+               propDate={jobActive.date}
+               propEntreprise={jobActive.entreprise}
+               propTasks={jobActive.task}
+
+               
+               
+               />
             </div>
 
 

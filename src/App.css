@@ -365,7 +365,7 @@ li:hover{
 #blocParcours{
   display: flex;
   flex-direction: row;
-  background-color: bisque;
+  background-color: #0A192F;
   width: 100%;
   height: 50%;
   margin-top: 5%;
@@ -373,15 +373,18 @@ li:hover{
 
 #menuXP{
   width:15%;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   height: 100%;
-  justify-content: space-evenly;
+  justify-content:cen;
+  
 }
 
 #affichXP{
   width: 85%;
+  background-color:#0A192F;
+  display: flex;
+  flex-direction: column;
 }
 
 #titreXP{
@@ -393,6 +396,87 @@ li:hover{
 }
 
 #xpButton{
-  
+  background-color: #0A192F;
+  width: 100%;
+  height: 20%;
+  color:#c1cbeb66;
+  border-left:1px solid #c1cbeb66;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
+
+#xpButton:hover{
+  border-left:2px solid #61DAFB;;
+  color:#61DAFB;
+  background-color:#263247;
+ 
+}
+
+#xpFocus{
+  background-color: #0A192F;
+  width: 100%;
+  height: 20%;
+  color: #61DAFB;;
+  border-left:2px solid #61DAFB;;
+ 
+}
+
+#xpDesc{
+background-color: #0A192F;
+height:20vh;
+display: flex;
+flex-direction: column;
+}
+
+#xpHeader{
+  background-color: #0A192F;
+}
+
+#xpTitle{
+  background-color: #0A192F;
+  display: flex;
+  flex-direction: row;
+}
+
+#xpEnt{
+  background-color: #0A192F;
+  color:  #61DAFB;
+  margin-left: 3%;
+
+}
+
+#xpDate{
+  text-align: left;
+  color:#c1cbeb66;
+  font-size:small
+}
+
+#xpPresentation{
+  text-align: left;
+  color:#c1cbeb66;
+  margin-top: 5%;
+  font-size:medium
+ 
+ 
+}
+
+#xpTasks{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color:#c1cbeb66;
+  justify-content: space-around;
+  height:25vh;
+  margin-top: 5%;
+  font-size:medium
+ 
+}
+
+#aTask:before{
+  content:">";
+  color: #61DAFB;
+  font-size:medium 
+  
 }
