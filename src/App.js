@@ -6,6 +6,7 @@ import Social from './Social';
 import Mail from './Mail';
 import Accroche from './Accroche';
 import APropos from './APropos';
+import Experience from './Experience';
 
 function App() {
   return (
@@ -16,9 +17,7 @@ function App() {
       <section className="nextSection">
         <Accroche/>
         <APropos/>
-        <div id="page2" className="page">
-          Experience
-        </div>
+        <Experience/>
         <div id="page3" className="page">
           Réalisations
         </div>
