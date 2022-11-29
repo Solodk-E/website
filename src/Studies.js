@@ -26,7 +26,7 @@ function Studies() {
 
   return (
     <div id="page4" className="page">
-          <div className="title"><span className='spanNumber'>2.</span>Diplomes<div className="titleLine"></div></div>
+          <div className="title"><span className='spanNumber'>4.</span>Diplomes<div className="titleLine"></div></div>
 
         <div id="scol">
         {affichDip}     
