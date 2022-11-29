@@ -542,3 +542,53 @@ flex-direction: column;
   padding-right: 20px;
 
 }
+
+#page4{
+  font-size: large;
+  color: white;
+  width: 55vw;
+  margin-top: 2%;
+  
+
+}
+
+#scol{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-between;
+margin: 10%;
+
+}
+
+
+.dip{
+display: flex;
+flex-direction: row;
+padding: 30px;
+
+}
+
+.dip:before{
+ content:">";
+ color:#61DAFB
+  
+  }
+
+.dipDate{
+  margin-left: 5%;
+  color:#c1cbeb66;
+}
+
+
+.dipText{
+  margin-left: 5%;
+  color: white;
+}
+
+
+.dipLieu{
+  margin-left: 5%;
+  color:#c1cbeb66;
+
+}
