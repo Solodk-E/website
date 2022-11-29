@@ -7,6 +7,7 @@ import Mail from './Mail';
 import Accroche from './Accroche';
 import APropos from './APropos';
 import Experience from './Experience';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -24,9 +25,7 @@ function App() {
         <div id="page4" className="page">
           Etudes
         </div>
-        <div id="page5" className="page">
-          Contact
-        </div>
+       <Contact/>
       </section>
       <Mail/>
       <Social/>

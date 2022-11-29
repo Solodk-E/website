@@ -257,12 +257,7 @@ a:link{
 }
 
 .title{
-  /* text-align: left;
-  margin-bottom: 5%;
-  margin-top: 4%;
-  display: flex;
-  flex-direction: row; */
-  display: flex;
+    display: flex;
     align-items: center;
     position: relative;
     width: 100%;
@@ -486,4 +481,64 @@ flex-direction: column;
   color: #61DAFB;
   font-size:medium 
   
+}
+
+#page5{
+  font-size: large;
+  width: 55vw;
+  margin-top: 2%;
+  background-color: #0A192F;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.title2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  font-size: large;
+  white-space: nowrap;
+  margin-bottom: 5%;
+  color: #61DAFB;
+
+}
+
+#messageAccroche{
+  margin-bottom: 5%;
+  font-size: xx-large;
+  color: white;
+}
+
+
+#texteContact{
+  margin-bottom: 5%;
+  color:#c1cbeb66;
+  width:50%;
+  
+}
+
+#cadreButton{
+  margin-bottom: 5%;
+
+}
+
+
+#resume2{
+  border: 1px solid #61DAFB;
+  border-radius: 5px;
+  color: #61DAFB; 
+  height: 30px;
+  width: 25%;
+  align-content: center;
+  align-self:center;
+  vertical-align: middle;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }

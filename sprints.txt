@@ -1,0 +1,27 @@
+Dev futur:
+- Ajouter projets
+- animations
+- léger dégradé du body
+- passer en typescript
+- SEO
+
+Sprint 1:
+- vraies données
+- navigation
+- clean code
+- mettre en ligne
+- corriger couleur navbar
+- mettre un logo
+- responsive
+
+Sprint 2:
+- ajouter un projet React
+- ajouter un projet React Native
+- animations
+
+Sprint 3:
+- dégradé du body
+- SEO
+- ajouter un projet React
+- ajouter un proje React Native
+
