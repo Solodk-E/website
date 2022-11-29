@@ -10,21 +10,18 @@ var dataJobs=[{active: false, name:"job1", description:"Deserunt deserunt et mol
 function Experience(props) {
 
     const [jobs, setJobs]=useState(dataJobs)
-
     const [jobActive, setJobActive]=useState({active: true, name:"job1", description:"Loremdfsdfdsfdfs",titre:"dev", task:["task1", "task2"], entreprise: "Insee", date: "2022" });
 
 
+    var affichActiveJob = (active, name, entreprise, description, titre, date, task, style) =>{
 
-    var affichActiveJob = (active, name, entreprise, description, titre, date, task) =>{
         
-        jobs.forEach(element=>{
-            element.active=false
-        })
-        setJobActive({active:true, name:name, entreprise:entreprise, description:description, titre:titre, date:date, task:task});
-        
-      
+        setJobActive({active:true, name:name, entreprise:entreprise, description:description, titre:titre, date:date, task:task,style:"xpFocus" });
+    
        
     }
+
+    
 
     
   
@@ -33,6 +30,13 @@ function Experience(props) {
   
 
     var setJobsButtons = jobs.map(element=>{
+
+        var buttonStyle="xpButton"
+
+        if (element.name==jobActive.name){
+            buttonStyle="xpFocus"
+        }
+
         return (
             
             <XPButton 
@@ -44,6 +48,7 @@ function Experience(props) {
             propEntreprise={element.entreprise}
             propDate={element.date}
             propTask={element.task}
+            propStyle={buttonStyle}
             />
             
         )
@@ -67,9 +72,6 @@ function Experience(props) {
                propDate={jobActive.date}
                propEntreprise={jobActive.entreprise}
                propTasks={jobActive.task}
-
-               
-               
                />
             </div>
 
