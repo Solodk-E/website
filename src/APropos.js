@@ -2,9 +2,9 @@ import React from 'react'
 
 function APropos() {
   return (
-    <div id="page1" className="page">
+    <div id="page1" className="page" >
         <div id="apropos">
-        <div className="title"><span className='spanNumber'>1.</span> A propos de moi<div className="titleLine"></div></div>
+        <div className="title" ><span className='spanNumber'>1.</span> A propos de moi<div className="titleLine"></div></div>
             <div id="corpus">
                 <div id="leftCorpus">
                 

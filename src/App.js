@@ -10,9 +10,12 @@ import Experience from './Experience';
 import Contact from './Contact';
 import Studies from './Studies';
 import Realisations from './Realisations';
+import { BrowserRouter } from 'react-router-dom';
+
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
       
         <Navbar/>
@@ -28,6 +31,7 @@ function App() {
       <Mail/>
       <Social/>
     </div>
+    </BrowserRouter>
   );
 }
 

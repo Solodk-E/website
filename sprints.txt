@@ -7,10 +7,10 @@ Dev futur:
 
 Sprint 1:
 - vraies données
-- navigation
+- navigation:OK
 - clean code
 - mettre en ligne
-- corriger couleur navbar
+- corriger couleur navbar:OK
 - mettre un logo
 - responsive
 
