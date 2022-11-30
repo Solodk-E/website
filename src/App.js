@@ -1,36 +1,31 @@
-import './App.css';
-import { useEffect, useRef } from 'react';
-import { gsap} from 'gsap';
-import Navbar from './Navbar';
-import Social from './Social';
-import Mail from './Mail';
-import Accroche from './Accroche';
-import APropos from './APropos';
-import Experience from './Experience';
-import Contact from './Contact';
-import Studies from './Studies';
-import Realisations from './Realisations';
-import { BrowserRouter } from 'react-router-dom';
-
+import "../src/Design/App.css";
+import Navbar from "../src/Components/Navbar";
+import Social from "../src/Components/Social";
+import Mail from "../src/Components/Mail";
+import Accroche from "../src/Pages/Accroche";
+import APropos from "./Pages/APropos";
+import Experience from "../src/Pages/Experience";
+import Contact from "../src/Pages/Contact";
+import Studies from "../src/Pages/Studies";
+import Realisations from "../src/Pages/Realisations";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
-    <div className="App">
-      
-        <Navbar/>
-    
-      <section className="nextSection">
-        <Accroche/>
-        <APropos/>
-        <Experience/>
-        <Realisations/>
-       <Studies/>
-       <Contact/>
-      </section>
-      <Mail/>
-      <Social/>
-    </div>
+      <div className="App">
+        <Navbar />
+        <section className="nextSection">
+          <Accroche />
+          <APropos />
+          <Experience />
+          <Realisations />
+          <Studies />
+          <Contact />
+        </section>
+        <Mail />
+        <Social />
+      </div>
     </BrowserRouter>
   );
 }
