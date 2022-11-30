@@ -711,3 +711,10 @@ width: 100%;
   color: #61DAFB;
 
 }
+
+#logo{
+  border: 1px solid #61DAFB;
+  height:90%;
+  width: 50px;
+  margin-top: 15px;
+}

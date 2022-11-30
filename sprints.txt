@@ -11,7 +11,7 @@ Sprint 1:
 - clean code
 - mettre en ligne
 - corriger couleur navbar:OK
-- mettre un logo
+- mettre un logo: OK
 - responsive
 
 Sprint 2:

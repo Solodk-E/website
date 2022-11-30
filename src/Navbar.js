@@ -4,7 +4,10 @@ import {HashLink as Link} from 'react-router-hash-link'
 function Navbar() {
   return (
     <section id="navBar">
-        <div id="homeLogo"><Link to="#page0" className="navLink2">LOGO</Link></div>
+        <div id="homeLogo"><Link to="#page0" className="navLink2">
+          <img id="logo" src="logo.png" alt="Elton Solodki Logo"/>
+          
+          </Link></div>
         <div id="blocDroitNav">
         <ol id="blocLignes">
             <li className="ligneSommaire"><Link to="#page1" className="navLink" style={{ textDecoration:'none' }}><span className='buttonMenu'>1.</span>A propos de moi</Link></li>
