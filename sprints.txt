@@ -12,18 +12,33 @@ Sprint 1:
 - mettre en ligne
 - corriger couleur navbar:OK
 - mettre un logo: OK
-- responsive
+- responsive (3 tailles)
+- retouches
+- changer les fonts 
 
 Sprint 2:
 - page Réalisations: ajouter un système de carroussel ou apparenté
 - ajouter un projet React
 - ajouter un projet React Native
 - animations
-- améliorer système de datas: les centraliser: redux, query, bdd, fichier texte?
+- améliorer système de datas: les centraliser: redux, query, bdd, fichier texte, md?
+- responsive: 3 tailles
 
 Sprint 3:
 - dégradé du body
 - SEO
 - ajouter un projet React
 - ajouter un proje React Native
+- responsive: 3 tailles
 
+
+Taille responsive:
+    mobileS: `max-width: 330px`,
+    mobileM: `max-width: 400px`,
+    mobileL: `max-width: 480px`,
+    tabletS: `max-width: 600px`,
+    tabletL: `max-width: 768px`,
+    desktopXS: `max-width: 900px`,
+    desktopS: `max-width: 1080px`,
+    desktopM: `max-width: 1200px`,
+    desktopL: `max-width: 1400px`,

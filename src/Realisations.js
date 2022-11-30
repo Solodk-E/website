@@ -19,10 +19,15 @@ function Realisations() {
                 <div id="reaText">Deserunonsectetur ex proident aliqua ut laboris ullamco deserunt anim. Est elit aute ad aliqua quis elit velit anim adipisicing velit velit. Eu cupidatat sunt tempor adipisicing ad sit voluptate eiusmod deserunt.</div>
                 <div id="reaTech">
                     <div id="realines">
-                    <div className='reaTechLine'>Langages: <span className='reatechPoint'>dfsdffdsf</span></div>
+                    <div id="reacolL">
                     <div className='reaTechLine'>Front End: <span className='reatechPoint'>dfsdffdsf</span></div>
                     <div className='reaTechLine'>Back End: <span className='reatechPoint'>dfsdffdsf</span></div>
+                    </div>
+                    <div id="reacolR">
+                    <div className='reaTechLine'>Langages: <span className='reatechPoint'>dfsdffdsf</span></div>
                     <div className='reaTechLine'>Librairies: <span className='reatechPoint'>dfsdffdsf</span></div>
+                    </div>
+                    
                     </div>                
                 </div>
                 

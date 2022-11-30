@@ -1,4 +1,5 @@
 import './App.css';
+import './responsive.css'
 import { useEffect, useRef } from 'react';
 import { gsap} from 'gsap';
 import Navbar from './Navbar';
