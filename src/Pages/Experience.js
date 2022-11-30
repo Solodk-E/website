@@ -48,18 +48,15 @@ function Experience(props) {
     titre,
     date,
     task,
-    style
-  ) => {
-    setJobActive({
-      name: name,
-      entreprise: entreprise,
-      description: description,
-      titre: titre,
-      date: date,
-      task: task,
-      style: "xpFocus",
-    });
-  };
+  ) => {setJobActive({
+          name: name,
+          entreprise: entreprise,
+          description: description,
+          titre: titre,
+          date: date,
+          task: task,
+        });
+        };
 
   var setJobsButtons = jobs.map((element) => {
     
