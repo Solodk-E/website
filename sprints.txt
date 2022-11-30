@@ -15,9 +15,11 @@ Sprint 1:
 - responsive
 
 Sprint 2:
+- page Réalisations: ajouter un système de carroussel ou apparenté
 - ajouter un projet React
 - ajouter un projet React Native
 - animations
+- améliorer système de datas: les centraliser: redux, query, bdd, fichier texte?
 
 Sprint 3:
 - dégradé du body

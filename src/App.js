@@ -8,7 +8,8 @@ import Accroche from './Accroche';
 import APropos from './APropos';
 import Experience from './Experience';
 import Contact from './Contact';
-import Studies from './Studies'
+import Studies from './Studies';
+import Realisations from './Realisations';
 
 function App() {
   return (
@@ -20,9 +21,7 @@ function App() {
         <Accroche/>
         <APropos/>
         <Experience/>
-        <div id="page3" className="page">
-          Réalisations
-        </div>
+        <Realisations/>
        <Studies/>
        <Contact/>
       </section>
