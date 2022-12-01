@@ -14,7 +14,7 @@ Sprint 1:
 - mettre un logo: OK
 - responsive (3 tailles)
 - retouches
-- changer les fonts 
+
 
 Sprint 2:
 - page Réalisations: ajouter un système de carroussel ou apparenté
@@ -30,6 +30,7 @@ Sprint 3:
 - ajouter un projet React
 - ajouter un proje React Native
 - responsive: 3 tailles
+- changer les fonts 
 
 
 Taille responsive:
@@ -41,4 +42,4 @@ Taille responsive:
     desktopXS: `max-width: 900px`,
     desktopS: `max-width: 1080px`,
     desktopM: `max-width: 1200px`,
-    desktopL: `max-width: 1400px`,
+    desktopL: `max-width: 1400px` =>OK
