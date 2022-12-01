@@ -6,40 +6,35 @@ var dataJobs = [
   {
     name: "job1",
     description:
-      "Deserunt deserunt et mollit cupidatat labore aliqua excepteur tempor. Consectetur non adipisicing enim ut sunt. Amet ad in et tempor culpa nostrud. Tempor velit aliqua consectetur eu voluptate amet consectetur aliqua amet velit officia. Ullamco qui in amet cupidatat ad esse cupidatat et laboris. Pariatur dolore quis in qui voluptate sit sunt fugiat tempor aliquip aute. Officia non do duis exercitation et.",
-    titre: "dev",
-    task: ["task1", "task2"],
-    entreprise: "Insee",
-    date: "2022",
+      "Affecté à la maintenance évolutive et corrective de Sirence.fr, ainsi qu'à la mise en route d'Osprey, application d'administation interne",
+    titre: "Developpeur",
+    task: ["Corrections et ajouts de nouvelles fonctionnalités sur Sirene.fr. Tâches aussi bien front-end en HTML/CSS/Javascript que back-end en Java (framwork Struts 2).", "Poursuite du versan Front-end projet Osprey, application interne d'administrartion, en React.", "Tout le prcessus fonctionne selon les règles de l'agilité: utilisation d'un Kanban, daily de l'équipe, réunions bi-hebdomadaires avec le métier"],
+    entreprise: "INSEE",
+    date: "sept 2020 - ",
   },
   {
     name: "job2",
     description: "Lorsfsdffdfs",
-    titre: "dev2",
+    titre: "Gestionnaire financier",
     task: ["task3", "task4"],
-    entreprise: "Insee",
-    date: "2022",
+    entreprise: "Ministère de l'Education Nationale",
+    date: "mar 2018 - mai 2020",
   },
   {
     name: "job3",
-    description: "sdfsdffdsfdfs",
-    titre: "dev3",
+    description: "",
+    titre: "Gestionnaire financier",
     task: ["task5", "task6"],
-    entreprise: "Educ",
-    date: "2022",
+    entreprise: "INSEE",
+    date: "sept 2010 - fev 2018",
   },
 ];
 
 function Experience(props) {
   const [jobs, setJobs] = useState(dataJobs);
-  const [jobActive, setJobActive] = useState({
-    name: "job1",
-    description: "Loremdfsdfdsfdfs",
-    titre: "dev",
-    task: ["task1", "task2"],
-    entreprise: "Insee",
-    date: "2022",
-  });
+  const [jobActive, setJobActive] = useState(
+    dataJobs[0]
+  );
 
   var affichActiveJob = (
     name,
@@ -80,7 +75,7 @@ function Experience(props) {
   return (
     <div id="page2" className="page">
       <div className="title">
-        <span className="spanNumber">2.</span>Parcours
+        <span className="spanNumber">2.</span>Parcours professionnel
         <div className="titleLine"></div>
       </div>
       <div id="blocParcours">

@@ -1,0 +1,179 @@
+
+@media screen and (max-width: 425px) {
+ 
+  .nextSection {
+    height: 400vh;
+  }
+  .finbarre {
+  visibility: hidden;
+  }
+
+  #social {
+    bottom: 0;
+    height: 30vh;
+    justify-content: space-evenly;
+  
+  position: fixed;
+  left: 3%;
+  display: flex;
+  flex-direction: row;
+  background-color: #0a192f;
+  width: 30px;
+  height: 50vh;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 3px;
+  
+  }
+  .icon {
+    color: #c1cbeb;
+    width: 10px;
+    height:10px;
+  }
+  
+  
+  #mailLink {
+    top: 20%;
+    height: 30vh;
+  }
+
+  #page0 {
+    height:10vh;
+  }
+
+  #page1 {
+  height:20vh;
+}
+
+#corpus {
+  justify-content: space-between;
+  font-size: small;
+
+}
+
+#leftCorpus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#apropos {
+  justify-content: space-around;
+  height: 70%;
+}
+
+#photoProfil2 {
+  height: 15vh;
+  width: 15vh;
+}
+
+#cadre {
+  height: 15vh;
+  width: 15vh;
+  top: -95%;
+  left: 8%;
+}
+
+#page2 {
+  height: 20vh;
+}
+
+#xpDesc {
+  height: 50%;
+}
+
+
+#xpTasks {
+  height: 50%;
+}
+
+#page3 {
+  height: 20vh;
+  width: 55vw;
+}
+
+#reaAff {
+  height:30vh;
+}
+
+#cadreIll {
+  height: 15vh;
+  width: 20vh;
+}
+
+
+#reaDoc {
+  height: 40%;
+  top: -50%;
+}
+
+#realines{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+#reaText {
+  font-size: small;
+  color: #c1cbeb66;
+}
+
+
+
+#page4 {
+  height: 20vh;
+}
+
+.dip {
+  padding: 15px;
+}
+
+#page5 {
+  font-size: large;
+  width: 55vw;
+  background-color: #0a192f;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+}
+
+
+
+#messageAccroche {
+  margin-bottom: 5%;
+  font-size: xx-large;
+  color: white;
+}
+
+#texteContact {
+ 
+  font-size:medium;
+}
+
+#cadreButton {
+  margin-bottom: 5%;
+}
+
+#resume2 {
+  border: 1px solid #61dafb;
+  border-radius: 5px;
+  color: #61dafb;
+  height: 30px;
+  width: 25%;
+  align-content: center;
+  align-self: center;
+  vertical-align: middle;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+}

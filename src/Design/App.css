@@ -285,7 +285,7 @@ a:link {
   width: 35vh;
   z-index: 1;
   position: relative;
-  top: -65%;
+  top: -85%;
   left: 5%;
 }
 
@@ -510,33 +510,45 @@ li:hover {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  margin: 10%;
+  height: 60%;
+  margin-top: 2%;
 }
 
 .dip {
   display: flex;
   flex-direction: row;
   padding: 30px;
+  width: 100%;
+  height: 15%;
+  align-items: center;
 }
 
 .dip:before {
   content: ">";
   color: #61dafb;
+  width:5%;
+  text-align: left;
 }
 
 .dipDate {
   margin-left: 5%;
   color: #c1cbeb66;
+  width: 5%;
+  text-align: left;
 }
 
 .dipText {
   margin-left: 5%;
   color: white;
+  width: 50%;
+  text-align: left;
 }
 
 .dipLieu {
   margin-left: 5%;
   color: #c1cbeb66;
+  text-align: left;
+  width: 20%;
 }
 
 #page3 {
@@ -560,7 +572,7 @@ li:hover {
   top: -5%;
   z-index: 12;
   margin-top: 15%;
-  
+  border: 1px solid #c1cbeb66;
 }
 
 #photoRea:hover {

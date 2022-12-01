@@ -15,7 +15,7 @@ function Realisations() {
         </div>
         <div id="reaDoc">
           <div id="reaFirst">
-            <div id="reaTitle">ezrezrezre</div>
+            <div id="reaTitle">PORTFOLIO</div>
             <div id="reaLinks">
               <a href="https://github.com/Solodk-E" target="_blank" rel="noopener noreferrer">
                 <FiGithub className="icon" />
@@ -26,27 +26,24 @@ function Realisations() {
             </div>
           </div>
           <div id="reaText">
-            Deserunonsectetur ex proident aliqua ut laboris ullamco deserunt
-            anim. Est elit aute ad aliqua quis elit velit anim adipisicing velit
-            velit. Eu cupidatat sunt tempor adipisicing ad sit voluptate eiusmod
-            deserunt.
+            J'ai réalisé ce portfolio en m'inspirant de celui de Brittany Chiang, que je trouvais très esthétique. Les technologies employées sont toutefois différentes. Ainsi, je n'ai pas utiliser les styled-components. J'ai repris peu d'éléments du code-source, principalement des proportions et des valeurs. 
           </div>
           <div id="reaTech">
             <div id="realines">
               <div>
               <div className="reaTechLine">
-                Langages: <span className="reatechPoint">dfsdffdsf</span>
+                Langages: <span className="reatechPoint">Javascript, html</span>
               </div>
               <div className="reaTechLine">
-                Front End: <span className="reatechPoint">dfsdffdsf</span>
+                Front End: <span className="reatechPoint">React, css vanilla</span>
               </div>
               </div>
               <div>
               <div className="reaTechLine">
-                Back End: <span className="reatechPoint">dfsdffdsf</span>
+                Back End: <span className="reatechPoint">Pas de backend</span>
               </div>
               <div className="reaTechLine">
-                Librairies: <span className="reatechPoint">dfsdffdsf</span>
+                Librairies: <span className="reatechPoint">React-routeur-dom, react icons</span>
               </div>
               </div>
             </div>
