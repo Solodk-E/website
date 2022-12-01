@@ -24,7 +24,7 @@ function Studies() {
   return (
     <div id="page4" className="page">
       <div className="title">
-        <span className="spanNumber">4.</span>Diplomes
+        <span className="spanNumber">4.</span>Scolarité
         <div className="titleLine"></div>
       </div>
 

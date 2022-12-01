@@ -13,7 +13,6 @@ body {
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
-
   align-items: center;
 }
 
@@ -195,6 +194,7 @@ a:link {
   text-align: left;
   margin-top: 3%;
   height: 50%;
+  font-size: xx-large;
 }
 
 #presentation {
@@ -560,10 +560,12 @@ li:hover {
   top: -5%;
   z-index: 12;
   margin-top: 15%;
+  
 }
 
 #photoRea:hover {
   filter: none;
+  border: 1px solid #61dafb;
 }
 
 #realines{

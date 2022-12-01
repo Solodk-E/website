@@ -17,12 +17,12 @@ function Navbar() {
               className="navLink"
               style={{ textDecoration: "none" }}
             >
-              <span className="buttonMenu">1.</span>A propos de moi
+              <span className="buttonMenu">1.</span> Qui suis-je?
             </Link>
           </li>
           <li className="ligneSommaire">
             <Link to="#page2" className="navLink">
-              <span className="buttonMenu">2.</span> Experience
+              <span className="buttonMenu">2.</span> Parcours
             </Link>
           </li>
           <li className="ligneSommaire">
@@ -32,7 +32,7 @@ function Navbar() {
           </li>
           <li className="ligneSommaire">
             <Link to="#page4" className="navLink">
-              <span className="buttonMenu">4.</span> Etudes
+              <span className="buttonMenu">4.</span> Scolarité
             </Link>
           </li>
           <li className="ligneSommaire">
@@ -47,7 +47,7 @@ function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          En resumé
+          mon CV
         </a>
       </div>
     </section>

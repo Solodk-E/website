@@ -5,31 +5,22 @@ function APropos() {
     <div id="page1" className="page">
       <div id="apropos">
         <div className="title">
-          <span className="spanNumber">1.</span> A propos de moi
+          <span className="spanNumber">1.</span> Qui suis-je?
           <div className="titleLine"></div>
         </div>
         <div id="corpus">
           <div id="leftCorpus">
             <div id="description">
               <p>
-                Qui consequat et sint dolore magna. Sint esse anim consequat
-                deserunt anim tempor esse. Enim labore tempor consequat cillum
-                velit aliquip. Do esse Lorem tempor nulla officia cillum
-                consectetur nostrud. Amet ullamco incididunt aute velit velit
-                tempor tempor. Sint laborum dolor do adipisicing ea nostrud
-                nulla aliquip.
+              Animé par la passion du code et des nouvelles technologies, je mets le cap vers vers de nouveaux horizons: ceux de développement web et mobile.
               </p>
 
               <p>
-                Qui fugiat eu consectetur duis non quis incididunt nostrud.
-                Culpa ex ea aliquip magna minim nulla. Excepteur dolor amet nisi
-                Lorem eiusmod laboris incididunt adipisicing dolor.
+              Je vous aiderai à concrétiser vos projets en mettant à votre services mes compétences en Javascript, React, React Native ou bien encore Node JS.
               </p>
 
               <p>
-                Nulla laborum deserunt amet qui incididunt anim quis ex aute.
-                Non culpa tempor tempor ea laboris. Fugiat nulla magna
-                consectetur est non sint ipsum est voluptate nulla.
+              Ensemble, nous pourrons créer et innover.
               </p>
             </div>
           </div>
@@ -46,8 +37,8 @@ function APropos() {
           <div className="colTech">
             <ul className="colList">
               <li>Javascript</li>
-              <li>HTML CSS</li>
-              <li>Boostrap, Ant Design</li>
+              <li>HTML / CSS</li>
+              <li>Boostrap / Ant Design</li>
             </ul>
           </div>
           <div>
@@ -62,7 +53,7 @@ function APropos() {
           <div className="colTech">
             <ul className="colList">
               <li>MongoDB</li>
-              <li>Git Github Gitlab</li>
+              <li>Git / Github / Gitlab</li>
               <li>Agilité (Kanban, daily etc)</li>
             </ul>
           </div>

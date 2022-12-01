@@ -80,7 +80,7 @@ function Experience(props) {
   return (
     <div id="page2" className="page">
       <div className="title">
-        <span className="spanNumber">2.</span>Experience
+        <span className="spanNumber">2.</span>Parcours
         <div className="titleLine"></div>
       </div>
       <div id="blocParcours">

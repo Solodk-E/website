@@ -11,7 +11,7 @@ function Realisations() {
       </div>
       <div id="reaAff">
         <div id="cadreIll">
-          <img id="photoRea" src="./imagePortfolio.jpg" alt="Elton Solodki portfolio screenschot"/>
+          <img id="photoRea" src="./imagePortfolio.png" alt="Elton Solodki portfolio screenschot"/>
         </div>
         <div id="reaDoc">
           <div id="reaFirst">

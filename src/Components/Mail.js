@@ -1,7 +1,7 @@
 import React from "react";
 
 function Mail() {
-  const email = "solodk-e-dev@gmail.com";
+  const email = "elton.solodki@gmail.com";
 
   return (
     <section id="mailLink">

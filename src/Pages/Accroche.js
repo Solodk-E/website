@@ -5,13 +5,11 @@ function Accroche() {
     <div id="page0" className="page">
       <h1 id="hello">Bonjour, je suis</h1>
       <h2 id="whoAmI">
-        <div id="myId">prénom nom</div>
-        <div id="slogan">mon slogan</div>
+        <div id="myId">Elton Solodki</div>
+        <div id="slogan">"Code is poetry"</div>
       </h2>
       <p id="presentation">
-        Irure velit ea laborum esse commodo cillum duis qui nulla. Irure aliqua
-        cupidatat culpa adipisicing officia Lorem esse ea velit. Pariatur cillum
-        adipisicing proident quis commodo velit ullamco.
+      Je suis un développeur web et mobile full-stack et je donne une vie digitale à vos idées
       </p>
     </div>
   );
