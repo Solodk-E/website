@@ -36,7 +36,7 @@ function APropos() {
           <div id="rightCorpus">
             <img
               id="photoProfil2"
-              src="photoProfil.jpg"
+              src="photoProfil.png"
               alt="Elton Solodki dev fullstack Node-React-React Native"
             />
             <div id="cadre"></div>

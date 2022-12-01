@@ -8,7 +8,7 @@ Dev futur:
 Sprint 1:
 - vraies données
 - navigation:OK
-- clean code
+- clean code:OK
 - mettre en ligne
 - corriger couleur navbar:OK
 - mettre un logo: OK
