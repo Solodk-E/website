@@ -12,18 +12,49 @@ Sprint 1:
 - mettre en ligne
 - corriger couleur navbar:OK
 - mettre un logo: OK
-- responsive
+- responsive (3 tailles)
+- retouches
+
 
 Sprint 2:
 - page Réalisations: ajouter un système de carroussel ou apparenté
 - ajouter un projet React
 - ajouter un projet React Native
 - animations
-- améliorer système de datas: les centraliser: redux, query, bdd, fichier texte?
+- améliorer système de datas: les centraliser: redux, query, bdd, fichier texte, md?
+- responsive: 3 tailles
 
 Sprint 3:
 - dégradé du body
 - SEO
 - ajouter un projet React
 - ajouter un proje React Native
+- responsive: 3 tailles
+- changer les fonts 
 
+
+Taille responsive:
+    mobileS: `max-width: 330px`,
+    mobileM: `max-width: 400px`,
+    mobileL: `max-width: 480px`,
+    tabletS: `max-width: 600px`,
+    tabletL: `max-width: 768px`,
+    desktopXS: `max-width: 900px`,
+    desktopS: `max-width: 1080px`,
+    desktopM: `max-width: 1200px`,
+    desktopL: `max-width: 1400px` =>OK
+
+textes:
+
+Slogan: Code is Poetry
+Accroche: Je suis un développeur web et mobile full-stack et je donne une vie digitale à vos idées
+Présentation: Animé par la passion du code et des nouvelles technologies, je mets le cap vers vers de nouveaux horizons: ceux de développement web et mobile.
+J'aspire à vous aider à concrétiser vos projets en mettant à votre services mes compétences en Javascript, React, React Native ou bien encore Node JS. 
+Ensemble, nous pourrons créer et innover.
+Contact: Pour mettre en place une future collaboration ou simplement pour discuter, vous pouvez toujours me contacter!
+A bientôt!
+Menu: Qui suis-Je, Expérience, Réalisations, Scolarité, Contact
+Experience:
+- septembre 2020 - : développeur web à l'INSEE, chargé de la maintenance du site Sirene.fr et du développement de la partie front end d'Osprey, une application interne.
+- mars 2018 - mai 2020 : gestionnaire financier au Ministère de l'Education Nationale, en charge du secteur informatique
+- sept 2010 - février 2018 : gestionnaire financier à l'Institut Nationale de la Statisque et des Etudes Economique  

@@ -5,7 +5,7 @@ import { BsFolderSymlink } from "react-icons/bs";
 function Realisations() {
   return (
     <div id="page3" className="page">
-      <div className="title">
+      <div className="title" id="titleRea">
         <span className="spanNumber">3.</span>Réalisations
         <div className="titleLine"></div>
       </div>
@@ -33,17 +33,21 @@ function Realisations() {
           </div>
           <div id="reaTech">
             <div id="realines">
+              <div>
               <div className="reaTechLine">
                 Langages: <span className="reatechPoint">dfsdffdsf</span>
               </div>
               <div className="reaTechLine">
                 Front End: <span className="reatechPoint">dfsdffdsf</span>
               </div>
+              </div>
+              <div>
               <div className="reaTechLine">
                 Back End: <span className="reatechPoint">dfsdffdsf</span>
               </div>
               <div className="reaTechLine">
                 Librairies: <span className="reatechPoint">dfsdffdsf</span>
+              </div>
               </div>
             </div>
           </div>

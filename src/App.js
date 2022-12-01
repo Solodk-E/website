@@ -1,4 +1,5 @@
 import "../src/Design/App.css";
+import "../src/Design/Responsive.css";
 import Navbar from "../src/Components/Navbar";
 import Social from "../src/Components/Social";
 import Mail from "../src/Components/Mail";
@@ -26,6 +27,7 @@ function App() {
         <Mail />
         <Social />
       </div>
+        
     </BrowserRouter>
   );
 }

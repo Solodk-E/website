@@ -13,7 +13,7 @@ body {
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
-  width: 100%;
+
   align-items: center;
 }
 
@@ -37,13 +37,17 @@ body {
   align-items: center;
   position: fixed;
   top: 0;
-  z-index: 11;
+  z-index: 99;
   width: 100%;
   height: var(--nav-height);
   pointer-events: auto !important;
   user-select: auto !important;
   backdrop-filter: blur(10px);
   transition: var(--transition);
+}
+
+#titleRea{
+margin-top: 10%;
 }
 
 .ligneSommaire {
@@ -202,7 +206,7 @@ a:link {
   margin-top: 2%;
 }
 
-#page1 {
+#page1{
   font-size: large;
   color: white;
   width: 55vw;
@@ -214,7 +218,7 @@ a:link {
   flex-direction: row;
   justify-content: space-around;
   gap: 40px;
-  height: 50%;
+  height: 40%;
 }
 
 #leftCorpus {
@@ -539,25 +543,35 @@ li:hover {
   font-size: large;
   color: white;
   width: 55vw;
-  margin-top: 2%;
+  margin-top: 20%;
+  height: 120vh;
 }
 
 #reaAff {
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 
 #cadreIll {
+  
   height: 40%;
   width: 40%;
   position: relative;
-  top: 5%;
+  top: -5%;
   z-index: 12;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 #photoRea:hover {
   filter: none;
+}
+
+#realines{
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
 }
 
 #reaDoc {
@@ -567,7 +581,7 @@ li:hover {
   width: 80%;
   z-index: 0;
   position: relative;
-  top: -30%;
+  top: -40%;
   left: 18%;
   display: flex;
   flex-direction: column;
@@ -608,9 +622,9 @@ li:hover {
   padding: 2px;
   display: flex;
   flex-direction: column;
-  align-content: center;
   justify-content: center;
   align-items: center;
+  width:100%
 }
 
 #photoRea {
