@@ -2,8 +2,8 @@ import React from "react";
 
 function XPButton(props) {
   
-  var activateJob = (name, entreprise, description, titre, date, task) => {
-    props.propButton(name, entreprise, description, titre, date, task);
+  var activateJob = (name, service, entreprise, description, titre, date, task) => {
+    props.propButton(name, service, entreprise, description, titre, date, task);
   };
 
   return (
@@ -11,6 +11,7 @@ function XPButton(props) {
       id={props.propStyle}
       onClick={() => activateJob(
           props.propName,
+          props.propService,
           props.propEntreprise,
           props.propDescription,
           props.propTitre,

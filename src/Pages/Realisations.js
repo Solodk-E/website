@@ -17,10 +17,10 @@ function Realisations() {
           <div id="reaFirst">
             <div id="reaTitle">PORTFOLIO</div>
             <div id="reaLinks">
-              <a href="https://github.com/Solodk-E" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Solodk-E/website" target="_blank" rel="noopener noreferrer">
                 <FiGithub className="icon" />
               </a>
-              <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+              <a href="http://www.eltonsolodki.com" target="_blank" rel="noopener noreferrer">
                 <BsFolderSymlink className="icon" />
               </a>
             </div>

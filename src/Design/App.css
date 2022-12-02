@@ -41,7 +41,6 @@ body {
   height: var(--nav-height);
   pointer-events: auto !important;
   user-select: auto !important;
-  backdrop-filter: blur(10px);
   transition: var(--transition);
 }
 
@@ -53,11 +52,11 @@ margin-top: 10%;
   display: inline;
   margin-left: 10px;
   font-size: small;
-  color: #c1cbeb;
+  color: #7D87A4;
 }
 
 .ligneSommaire:hover {
-  color: #61dafb;
+  color:white;
 }
 
 .buttonMenu {
@@ -219,6 +218,7 @@ a:link {
   justify-content: space-around;
   gap: 40px;
   height: 40%;
+  color:#c1cbeb
 }
 
 #leftCorpus {
@@ -259,13 +259,6 @@ a:link {
   margin-right: 2%;
 }
 
-/* .titleLine {
-  border: 1px solid #61DAFB;
-  width:40%;
-  height: 0.1px;
-  margin-left: 2%; 
-} */
-
 #photoProfil2 {
   height: 35vh;
   width: 35vh;
@@ -298,6 +291,7 @@ a:link {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  
 }
 
 .colTech {
@@ -306,7 +300,7 @@ a:link {
 
 .colList {
   list-style: none;
-  color: #c1cbeb66;
+  color:#c1cbeb
 }
 
 .colList li::before {
@@ -340,12 +334,11 @@ li:hover {
   display: flex;
   flex-direction: column;
   height: 100%;
-  justify-content: cen;
+  justify-content: flex-start;
 }
 
 #affichXP {
   width: 85%;
-  background-color: #0a192f;
   display: flex;
   flex-direction: column;
   margin-left: 5%;
@@ -363,8 +356,8 @@ li:hover {
   background-color: #0a192f;
   width: 100%;
   height: 20%;
-  color: #c1cbeb66;
-  border-left: 1px solid #c1cbeb66;
+  color: #c1cbeb;
+  border-left: 1px solid #7D87A4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -392,47 +385,42 @@ li:hover {
 }
 
 #xpDesc {
-  background-color: #0a192f;
-  height: 20vh;
+  height:30%;
   display: flex;
   flex-direction: column;
 }
 
-#xpHeader {
-  background-color: #0a192f;
-}
 
 #xpTitle {
-  background-color: #0a192f;
   display: flex;
   flex-direction: row;
 }
 
 #xpEnt {
-  background-color: #0a192f;
   color: #61dafb;
   margin-left: 3%;
 }
 
 #xpDate {
   text-align: left;
-  color: #c1cbeb66;
+  color: #7D87A4;
   font-size: small;
   margin-top: 1%;
 }
 
 #xpPresentation {
   text-align: left;
-  color: #c1cbeb66;
+  color: #7D87A4;
   margin-top: 5%;
   font-size: medium;
+
 }
 
 #xpTasks {
   display: flex;
   flex-direction: column;
   text-align: left;
-  color: #c1cbeb66;
+  color: white;
   justify-content: space-around;
   height: 25vh;
   margin-top: 5%;
@@ -443,6 +431,7 @@ li:hover {
   content: ">";
   color: #61dafb;
   font-size: medium;
+  margin-right: 2%;
 }
 
 #page5 {
@@ -528,11 +517,12 @@ li:hover {
   color: #61dafb;
   width:5%;
   text-align: left;
+  
 }
 
 .dipDate {
   margin-left: 5%;
-  color: #c1cbeb66;
+  color: #c1cbeb;
   width: 5%;
   text-align: left;
 }
@@ -546,7 +536,7 @@ li:hover {
 
 .dipLieu {
   margin-left: 5%;
-  color: #c1cbeb66;
+  color: #7D87A4;
   text-align: left;
   width: 20%;
 }
@@ -572,12 +562,12 @@ li:hover {
   top: -5%;
   z-index: 12;
   margin-top: 15%;
-  border: 1px solid #c1cbeb66;
+  border: 1px solid #7D87A4;
 }
 
 #photoRea:hover {
   filter: none;
-  border: 1px solid #61dafb;
+  border: 1px solid #7D87A4;
 }
 
 #realines{
@@ -612,7 +602,7 @@ li:hover {
 
 #reaText {
   font-size: medium;
-  color: #c1cbeb66;
+  color: #7D87A4;
 }
 
 #reaFirst {
@@ -659,12 +649,12 @@ li:hover {
 }
 
 .reatechPoint {
-  color: #c1cbeb66;
+  color: #7D87A4;
   margin-left: 10px;
 }
 
 .navLink {
-  color: #c1cbeb66;
+  color: #CCD6F6;
 }
 
 .navLink2 {

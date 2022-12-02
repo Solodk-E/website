@@ -10,10 +10,10 @@ function Contact() {
       </div>
       <div id="messageAccroche">
       <p>  
-      Pour mettre en place une future collaboration ou simplement pour discuter, vous pouvez toujours me contacter!
+      Pour mettre en place une future collaboration ou pour simplement discuter, contactez-moi!
       </p>
       <p>
-      A bientôt!
+      A bientôt, pour de nouvelles aventures!
       </p>  
         
       </div>
