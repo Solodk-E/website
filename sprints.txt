@@ -6,7 +6,7 @@ Dev futur:
 - SEO
 
 Sprint 1:
-- vraies données
+- vraies données:OK
 - navigation:OK
 - clean code:OK
 - mettre en ligne
