@@ -45,7 +45,7 @@ body {
 }
 
 #titleRea{
-margin-top: 10%;
+margin-top: 30%;
 }
 
 .ligneSommaire {
@@ -318,6 +318,7 @@ li:hover {
   color: white;
   width: 55vw;
   margin-top: 2%;
+  height: 100vh;
 }
 
 #blocParcours {
@@ -544,14 +545,14 @@ li:hover {
 #page3 {
   font-size: large;
   color: white;
-  width: 55vw;
-  margin-top: 20%;
-  height: 120vh;
+  width: 70vw;
+  margin-top: 30%;
+  height: 100vh;
 }
 
 #reaAff {
-  height: 100vh;
-  width: 100%;
+  height: 105vh;
+  width: 80%;
 }
 
 #cadreIll {
@@ -582,7 +583,7 @@ li:hover {
   background-color: #0a192f;
   border: 2px solid #61dafb;
   height: 30%;
-  width: 80%;
+  width: 90%;
   z-index: 0;
   position: relative;
   top: -40%;
@@ -667,4 +668,30 @@ li:hover {
   height: 90%;
   width: 50px;
   margin-top: 15px;
+}
+
+#slideshow{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-left: 5%;
+
+}
+
+.cadreArrow{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width:25%;
+height:50%
+
+}
+
+.arrow{
+  height: 50%;
+  width: 80%;
+}
+
+.arrow:hover{
+  color:#61dafb
 }

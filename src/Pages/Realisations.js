@@ -1,53 +1,95 @@
-import React from "react";
-import { FiGithub } from "react-icons/fi";
-import { BsFolderSymlink } from "react-icons/bs";
+import React, {useEffect, useState} from "react";
+import Slide from "../Components/Slide";
+import { AiOutlineCaretLeft, AiOutlineCaretRight } from "react-icons/ai";
+
+
+var dataRea=[
+  {
+    image:"./imagePortfolio.png",
+    alt:"Elton Solodki portfolio screenschot",
+    title:"PORTFOLIO",
+    githubLink:"https://github.com/Solodk-E/website",
+    websiteLink:"http://www.eltonsolodki.com",
+    description:"J'ai réalisé ce portfolio en m'inspirant de celui de Brittany Chiang, que je trouvais très esthétique. Les technologies employées sont toutefois différentes. Ainsi, je n'ai pas utiliser les styled-components. J'ai repris peu d'éléments du code-source, principalement des proportions et des valeurs.",
+    langages:"Javascript, html",
+    frontend:"React, css vanilla",
+    backend:"Pas de backend",
+    librairies:"React-routeur-dom, react icons"
+  },
+  {
+    image:"./imagePortfolio.png",
+    alt:"Elton Solodki portfolio screenschot",
+    title:"Exemple2",
+    githubLink:"https://github.com/Solodk-E/website",
+    websiteLink:"http://www.eltonsolodki.com",
+    description:"J'ai réalisé ce portfolio en m'inspirant de celui de Brittany Chiang, que je trouvais très esthétique. Les technologies employées sont toutefois différentes. Ainsi, je n'ai pas utiliser les styled-components. J'ai repris peu d'éléments du code-source, principalement des proportions et des valeurs.",
+    langages:"Javascript, html",
+    frontend:"React, css vanilla",
+    backend:"Pas de backend",
+    librairies:"React-routeur-dom, react icons"
+  },
+  {
+    image:"./imagePortfolio.png",
+    alt:"Elton Solodki portfolio screenschot",
+    title:"Exemple3",
+    githubLink:"https://github.com/Solodk-E/website",
+    websiteLink:"http://www.eltonsolodki.com",
+    description:"J'ai réalisé ce portfolio en m'inspirant de celui de Brittany Chiang, que je trouvais très esthétique. Les technologies employées sont toutefois différentes. Ainsi, je n'ai pas utiliser les styled-components. J'ai repris peu d'éléments du code-source, principalement des proportions et des valeurs.",
+    langages:"Javascript, html",
+    frontend:"React, css vanilla",
+    backend:"Pas de backend",
+    librairies:"React-routeur-dom, react icons"
+  }
+]
 
 function Realisations() {
+
+const [slideRea, setSlideRea]= useState(dataRea);
+const [activeRea, setActiveRea]=useState(slideRea[0]);
+const [page, setPage]=useState(0)
+
+var nextRea = ()=>{
+  page === slideRea.length-1? setPage(0) : setPage(page+1)
+}
+
+var previousRea = ()=>{
+  page === 0 ? setPage(slideRea.length-1) : setPage(page -1);
+}
+
+useEffect(()=>{
+  setActiveRea(slideRea[page]);
+},[page])
+
+
   return (
     <div id="page3" className="page">
       <div className="title" id="titleRea">
         <span className="spanNumber">3.</span>Réalisations
         <div className="titleLine"></div>
       </div>
-      <div id="reaAff">
-        <div id="cadreIll">
-          <img id="photoRea" src="./imagePortfolio.png" alt="Elton Solodki portfolio screenschot"/>
+      <div id="slideshow">
+        <div className="cadreArrow">
+        <AiOutlineCaretLeft
+            className="arrow" onClick={()=>{previousRea()}}
+        />
         </div>
-        <div id="reaDoc">
-          <div id="reaFirst">
-            <div id="reaTitle">PORTFOLIO</div>
-            <div id="reaLinks">
-              <a id="git" href="https://github.com/Solodk-E/website" target="_blank" rel="noopener noreferrer">
-                <FiGithub className="icon" />
-              </a>
-              <a id="lin" href="http://www.eltonsolodki.com" target="_blank" rel="noopener noreferrer">
-                <BsFolderSymlink className="icon" />
-              </a>
-            </div>
-          </div>
-          <div id="reaText">
-            J'ai réalisé ce portfolio en m'inspirant de celui de Brittany Chiang, que je trouvais très esthétique. Les technologies employées sont toutefois différentes. Ainsi, je n'ai pas utiliser les styled-components. J'ai repris peu d'éléments du code-source, principalement des proportions et des valeurs. 
-          </div>
-          <div id="reaTech">
-            <div id="realines">
-              <div>
-              <div className="reaTechLine">
-                Langages: <span className="reatechPoint">Javascript, html</span>
-              </div>
-              <div className="reaTechLine">
-                Front End: <span className="reatechPoint">React, css vanilla</span>
-              </div>
-              </div>
-              <div>
-              <div className="reaTechLine">
-                Back End: <span className="reatechPoint">Pas de backend</span>
-              </div>
-              <div className="reaTechLine">
-                Librairies: <span className="reatechPoint">React-routeur-dom, react icons</span>
-              </div>
-              </div>
-            </div>
-          </div>
+        <div>
+            <Slide
+            propImage={activeRea.image}
+            propAlt={activeRea.alt}
+            propTitle={activeRea.title}
+            propGit={activeRea.githubLink}
+            propWebLink={activeRea.websiteLink}
+            propDescription={activeRea.description}
+            propLangages={activeRea.langages}
+            propFront={activeRea.frontend}
+            propBack={activeRea.backend}
+            propLib={activeRea.librairies}
+        />
+        </div>
+        <div className="cadreArrow">
+        <AiOutlineCaretRight
+            className="arrow" onClick={()=>{nextRea()}}/>
         </div>
       </div>
     </div>

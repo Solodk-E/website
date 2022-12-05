@@ -12,11 +12,12 @@ Sprint 1:
 - mettre en ligne
 - corriger couleur navbar:OK
 - mettre un logo: OK
-- responsive (3 tailles)
-- retouches
+- responsive (3 tailles):OK
+- retouches:OK
 
 
 Sprint 2:
+- corrections sprint 1: lien hypertexte Brittany Chiang, https pour le portfolio
 - page Réalisations: ajouter un système de carroussel ou apparenté
 - ajouter un projet React
 - ajouter un projet React Native
