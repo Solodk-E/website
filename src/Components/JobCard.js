@@ -11,7 +11,7 @@ function JobCard(props) {
   });
 
   return (
-    <div>
+    <div id="xpcard">
       <div id="xpDesc">
         <div id="xpHeader">
           <div id="xpTitle">

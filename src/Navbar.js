@@ -6,7 +6,6 @@ function Navbar() {
     <section id="navBar">
         <div id="homeLogo"><Link to="#page0" className="navLink2">
           <img id="logo" src="logo.png" alt="Elton Solodki Logo"/>
-          
           </Link></div>
         <div id="blocDroitNav">
         <ol id="blocLignes">
