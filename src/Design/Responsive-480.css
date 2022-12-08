@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
  
     #navBar {
       background-color: #0a192f;
@@ -49,7 +49,7 @@
       height:5vh;
       width:5vh     
     }
-
+  
     #blocDroitNav {
       display: flex;
       flex-direction: row;
@@ -80,7 +80,7 @@
     }
   
     
-#page0 {
+  #page0 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -89,7 +89,7 @@
     height:210vh;
     margin-top:20%;
     margin-bottom: 30%;
-
+  
   }
   
   #hello {
@@ -130,7 +130,7 @@
     font-size: medium;
   }
   
-
+  
     .finbarre {
       display: none;
       }
@@ -145,8 +145,8 @@
       }
       
     
- 
-#page1{
+  
+  #page1{
     font-size: large;
     color: white;
     width: 55vw;
@@ -156,7 +156,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-bottom: 20%;
- 
+  
   }
   
   #corpus {
@@ -176,7 +176,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 70vh;
-
+  
   }
   
   .title {
@@ -188,9 +188,9 @@
     white-space: nowrap;
   }
   
-
   
-
+  
+  
   #photoProfil2 {
     height: 20vh;
     width: 20vh;
@@ -200,7 +200,7 @@
     filter: sepia(100%) hue-rotate(150deg) saturate(500%);
   }
   
- 
+  
   
   #cadre {
   display: none;
@@ -211,15 +211,15 @@
     margin-top: 20%;
     }
   
- 
-
   
-
+  
+  
+  
   #cadre {
   display: none;
   }
   
-
+  
   
   #stackTechnique {
     display: flex;
@@ -239,7 +239,7 @@
     list-style: none;
     color:#c1cbeb
   }
-
+  
   #page2 {
     font-size: small;
     color: white;
@@ -276,7 +276,7 @@
     margin-top: 1%;
     height: 10%
   }
-
+  
   
   #xpButton {
     background-color: #0a192f;
@@ -289,7 +289,7 @@
     justify-content: space-around;
   }
   
-
+  
   
   #xpDesc {
     height:30%;
@@ -304,7 +304,7 @@
     color: #7D87A4;
     margin-top: 5%;
     font-size: small;
- 
+  
     height:50vh
   
   }
@@ -337,6 +337,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-bottom: 40%;
+   
   }
   
   #reaAff {
@@ -345,8 +346,8 @@
   }
   
   #cadreIll {
-
-display: none;
+  
+  display: none;
   }
   
   #photoRea:hover {
@@ -372,6 +373,8 @@ display: none;
     display: flex;
     flex-direction: column;
     text-align: left;
+    border: none;
+    margin-top: 20%;
   }
   
   
@@ -430,7 +433,7 @@ display: none;
     color: #7D87A4;
     margin-left: 0px;
   }
-
+  
   #page4 {
     font-size: large;
     color: white;
@@ -455,7 +458,7 @@ display: none;
   }
   
   
-#page5 {
+  #page5 {
   font-size: large;
   width: 55vw;
   margin-top: 2%;
@@ -466,9 +469,9 @@ display: none;
   align-items: center;
   height: 200vh;
   margin-bottom: 20vh;
-}
-
-.title2 {
+  }
+  
+  .title2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -478,29 +481,29 @@ display: none;
   white-space: nowrap;
   margin-bottom: 5%;
   color: #61dafb;
-}
-
-#messageAccroche {
+  }
+  
+  #messageAccroche {
   margin-bottom: 5%;
   font-size: medium;
   color: white;
-}
-
-#texteContact {
+  }
+  
+  #texteContact {
   margin-bottom: 5%;
   color: #c1cbeb66;
   width: 50%;
-}
-
-#cadreButton {
+  }
+  
+  #cadreButton {
   margin-bottom: 5%;
-}
-
-#resume2 {
+  }
+  
+  #resume2 {
   font-size: medium;
-}
-
- 
-
-
-}
+  }
+  
+  
+  
+  
+  }

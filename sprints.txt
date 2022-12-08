@@ -35,6 +35,7 @@ Sprint 3:
 
 Taille responsive:
     mobileS: `max-width: 330px`,
+    mobileS: `max-width: 360px`, =>OK
     mobileM: `max-width: 400px`,
     mobileL: `max-width: 480px`,
     tabletS: `max-width: 600px`,

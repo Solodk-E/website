@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 400px) {
  
   #navBar {
     background-color: #0a192f;
@@ -41,10 +41,15 @@
     margin-left: 3%;
     color: #61dafb;
     height: 3vh;
-    width:3vw;
+    width: 2vh;
     margin-bottom: 5%;
   }
   
+  #logo{
+    height:5vh;
+    width:5vh     
+  }
+
   #blocDroitNav {
     display: flex;
     flex-direction: row;
@@ -61,6 +66,7 @@
     align-content: center;
     align-self: center;
     padding-top: 5px;
+    margin-top: 25px;
   }
   
   .nextSection {
@@ -73,44 +79,104 @@
     align-items: center;
   }
 
+  
+#page0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 5%;
+  padding-top: 8%;
+  height:210vh;
+  margin-top:20%;
+  margin-bottom: 30%;
 
-  #page0 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-left: 5%;
-    padding-top: 20%;
-  }
+}
+
+#hello {
+  color: #61dafb;
+  font-family: var(--font-mono);
+  font-size: large;
+  font-weight: 400;
+  text-align: left;
+}
+
+#whoAmI {
+  margin-top: 10px;
+  color: #c1cbeb;
+  line-height: 0.9;
+  font-size: 52%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 15%;
+}
+
+#myId {
+  color: #c1cbeb;
+  line-height: 0.9;
+  text-align: left;
+  height: 50%;
+  font-size: xx-large;
+}
+
+#slogan {
+  margin-top: 10px;
+  color: var(--slate);
+  line-height: 0.9;
+  color: #c1cbeb66;
+  text-align: left;
+  margin-top: 3%;
+  height: 50%;
+  font-size: medium;
+}
+
+
+  .finbarre {
+    display: none;
+    }
+    
+    #social {
+      top:78%;
+      height: 20vh;
+    }
+    
+    #mailLink {
+      top:75%;   
+    }
+    
   
-  
+
 #page1{
   font-size: large;
   color: white;
   width: 55vw;
   margin-top: 2%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 20%;
+
 }
 
 #corpus {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: space-around;
-  gap: 40px;
-  height: 60%;
-  color:#c1cbeb
+  height: 25vh;
+  color:#c1cbeb;
+  margin-top:10vh;
+  margin-bottom:50%
 }
 
-#leftCorpus {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 
 #apropos {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 90%;
-  margin-top: 5%;
+  height: 70vh;
+
 }
 
 .title {
@@ -118,38 +184,23 @@
   align-items: center;
   position: relative;
   width: 100%;
-  font-size: xx-large;
+  font-size: large;
   white-space: nowrap;
 }
 
-.title::after {
-  content: "";
-  display: block;
-  position: relative;
-  top: 15%;
-  width: 250px;
-  height: 1px;
-  margin-left: 20px;
-  background-color: #c1cbeb66;
-}
 
-.spanNumber {
-  color: #61dafb;
-  margin-right: 2%;
-}
+
 
 #photoProfil2 {
-  height: 10vh;
-  width: 10vh;
-  position: relative;
-  top: 5%;
+  height: 20vh;
+  width: 20vh;
+  position:relative;
+  top: 30%;
   z-index: 12;
   filter: sepia(100%) hue-rotate(150deg) saturate(500%);
 }
 
-#photoProfil2:hover {
-  filter: none;
-}
+
 
 #cadre {
 display: none;
@@ -157,14 +208,27 @@ display: none;
 
 #description {
   text-align: left;
+  margin-top: 20%;
+  }
+
+
+
+
+
+#cadre {
+display: none;
 }
+
+
 
 #stackTechnique {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  
+  font-size: small;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 
 .colTech {
@@ -176,40 +240,32 @@ display: none;
   color:#c1cbeb
 }
 
-.colList li::before {
-  content: ">";
-  color: #61dafb;
-  padding-right: 10px;
-}
-
-li:hover {
-  color: white;
-}
-
-
 #page2 {
-  font-size: large;
+  font-size: small;
   color: white;
-  width: 80%;
-  margin-top: 2%;
+  width: 55vw;
+  margin-top: 50%;
+  height: 200vh;
+  margin-bottom: 80%;
 }
 
 #blocParcours {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   background-color: #0a192f;
   width: 100%;
-  height: 50%;
+  height: 40%;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #menuXP {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: row;
-  height: 100%;
-
-  justify-content: space-around;
+  height: 20%;
+  justify-content: space-between;
 }
 
 #affichXP {
@@ -217,15 +273,10 @@ li:hover {
   display: flex;
   flex-direction: column;
   margin-left: 5%;
+  margin-top: 1%;
+  height: 10%
 }
 
-#titreXP {
-  text-align: left;
-}
-
-#periodeXP {
-  text-align: left;
-}
 
 #xpButton {
   background-color: #0a192f;
@@ -235,59 +286,26 @@ li:hover {
   border-left: 1px solid #7D87A4;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-#xpButton:hover {
-  color: #61dafb;
-  background-color: #263247;
-  width: 100%;
-  height: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-#xpFocus {
-  border-left: 2px solid #61dafb;
-  color: #61dafb;
-  background-color: #263247;
-  width: 100%;
-  height: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 #xpDesc {
   height:30%;
   display: flex;
   flex-direction: column;
+  
 }
 
-
-#xpTitle {
-  display: flex;
-  flex-direction: row;
-}
-
-#xpEnt {
-  color: #61dafb;
-  margin-left: 3%;
-}
-
-#xpDate {
-  text-align: left;
-  color: #7D87A4;
-  font-size: small;
-  margin-top: 1%;
-}
 
 #xpPresentation {
   text-align: left;
   color: #7D87A4;
   margin-top: 5%;
-  font-size: medium;
+  font-size: small;
+
+  height:50vh
 
 }
 
@@ -297,43 +315,39 @@ li:hover {
   text-align: left;
   color: white;
   justify-content: space-around;
-  height: 25vh;
-  margin-top: 5%;
-  font-size: medium;
+  height: 20vh;
+  font-size: small;
+ 
 }
 
-#aTask:before {
-  content: ">";
-  color: #61dafb;
-  font-size: medium;
-  margin-right: 2%;
-}
-  
-
-#page3 {
-  font-size: large;
-  color: white;
-  width: 55vw;
-  margin-top: 20%;
-
-}
-
-#reaAff {
-
-  width: 100%;
+#xpcard{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  
+}
 
+#page3 {
+  font-size: small;
+  color: white;
+  width: 55vw;
+  margin-top: 20%;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 40%;
+ 
+}
+
+#reaAff {
+  height: 100vh;
+  width: 100%;
 }
 
 #cadreIll {
-  position: inherit;
-  height:40%;
-  width: 90%;
-  margin-top: 5%;
-  border: 1px solid #7D87A4;
+
+display: none;
 }
 
 #photoRea:hover {
@@ -343,35 +357,33 @@ li:hover {
 
 #realines{
   margin-top: 5%;
-  width: 100%;
+  width: 120%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #reaDoc {
-  background-color: #0a192f;
-  border: none;
   height: 30%;
   width: 100%;
   z-index: 0;
-  position: inherit;
+  position: relative;
+  top:0%;
+  left: 0;
   display: flex;
   flex-direction: column;
   text-align: left;
+  border: none;
 }
 
-#reaDoc:hover {
-  z-index: 20;
-}
+
 
 #reaTitle {
   font-size: medium;
-  margin-top:5px
 }
 
 #reaText {
-  font-size: medium;
+  font-size: small;
   color: #7D87A4;
 }
 
@@ -386,31 +398,28 @@ li:hover {
   margin-left: 35%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 2px;
-  width:50%;
-  background-color: y;
+  width: 30%;
 }
 
 #reaTech {
-  margin-top: 5px;
+  margin-top: 20%;
   padding: 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: space-between;
   width:100%
 }
 
 #photoRea {
-  height: 100%;
-  width: 100%;
-  filter: sepia(100%) hue-rotate(150deg) saturate(500%);
+ display: none;
 }
 
 .reaTechLine {
   color: white;
-  font-size: medium;
+  font-size: small;
 }
 
 .reaTechLine:before {
@@ -421,72 +430,79 @@ li:hover {
 
 .reatechPoint {
   color: #7D87A4;
-  margin-left: 10px;
+  margin-left: 0px;
 }
-
-#git{width: 50px;
-}
-#lin{width: 50px;
-}
-
 
 #page4 {
   font-size: large;
   color: white;
-  width: 55vw;
+  width: 45vw;
   margin-top: 2%;
+  height: 100vh;
   display: flex;
-  height:100vh
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 #scol {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: space-between;
   height: 60%;
-  margin-top: 2%;
+  margin-top: 20%;
+  width:90vw;
+  font-size: small;
 }
 
-.dip {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100%;
-  height: 25%;
-  text-align: left;
 
-
+#page5 {
+font-size: large;
+width: 55vw;
+margin-top: 2%;
+background-color: #0a192f;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+height: 200vh;
+margin-bottom: 20vh;
 }
 
-.dip:before {
-  content: ">";
-  color: #61dafb;
-  width:5%;
-  text-align: left;
-  display: none;
+.title2 {
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+width: 100%;
+font-size: large;
+white-space: nowrap;
+margin-bottom: 5%;
+color: #61dafb;
 }
 
-.dipDate {
-  margin-left: 5%;
-  color: #c1cbeb;
-  width: 100%;
-  text-align: left;
+#messageAccroche {
+margin-bottom: 5%;
+font-size: medium;
+color: white;
 }
 
-.dipText {
-  margin-left: 5%;
-  color: white;
-  width: 100%;
-  text-align: left;
+#texteContact {
+margin-bottom: 5%;
+color: #c1cbeb66;
+width: 50%;
 }
 
-.dipLieu {
-  margin-left: 5%;
-  color: #7D87A4;
-  text-align: left;
-  width: 100%;
+#cadreButton {
+margin-bottom: 5%;
 }
+
+#resume2 {
+font-size: medium;
+}
+
+
 
 
 }
