@@ -1,5 +1,6 @@
 import "../src/Design/App.css";
 import "../src/Design/Responsive-1400.css";
+import "../src/Design/Responsive-600.css";
 import "../src/Design/Responsive-480.css";
 import "../src/Design/Responsive-400.css";
 import "../src/Design/Responsive-360.css";
