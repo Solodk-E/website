@@ -86,9 +86,10 @@
     justify-content: flex-start;
     padding-left: 5%;
     padding-top: 8%;
-    height:210vh;
+    height:50vh;
     margin-top:20%;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
+
 
   }
   
@@ -155,7 +156,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-bottom: 20%;
+    margin-bottom: 2%;
  
   }
   
@@ -195,7 +196,7 @@
     height: 20vh;
     width: 20vh;
     position:relative;
-    top: 30%;
+    top: 80%;
     z-index: 12;
     filter: sepia(100%) hue-rotate(150deg) saturate(500%);
   }
@@ -208,7 +209,7 @@
   
   #description {
     text-align: left;
-    margin-top: 20%;
+    margin-top: 30%;
     }
   
  
@@ -223,16 +224,18 @@
   
   #stackTechnique {
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     justify-content: space-between;
-    width: 100%;
+    width: 120%;
     font-size: small;
     margin-top: 20%;
     margin-bottom: 20%;
+    flex-wrap:wrap;
   }
   
   .colTech {
     text-align: left;
+
   }
   
   .colList {
@@ -244,9 +247,9 @@
     font-size: small;
     color: white;
     width: 55vw;
-    margin-top: 50%;
+    margin-top: 55%;
     height: 200vh;
-    margin-bottom: 80%;
+    margin-bottom: 50%;
   }
   
   #blocParcours {
@@ -257,7 +260,8 @@
     width: 100%;
     height: 40%;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
+    justify-content:flex-start
   }
   
   #menuXP {
@@ -274,7 +278,8 @@
     flex-direction: column;
     margin-left: 5%;
     margin-top: 1%;
-    height: 10%
+    height: 20%;
+   
   }
 
   
@@ -292,7 +297,7 @@
 
   
   #xpDesc {
-    height:30%;
+    height:50%;
     display: flex;
     flex-direction: column;
     
@@ -302,10 +307,10 @@
   #xpPresentation {
     text-align: left;
     color: #7D87A4;
-    margin-top: 5%;
+    margin-top: 1%;
     font-size: small;
- 
-    height:50vh
+    justify-content:flex-start;
+    height:20vh
   
   }
   
@@ -314,7 +319,7 @@
     flex-direction: column;
     text-align: left;
     color: white;
-    justify-content: space-around;
+    justify-content: flex-start;
     height: 20vh;
     font-size: small;
    
@@ -331,17 +336,18 @@
     font-size: small;
     color: white;
     width: 55vw;
-    margin-top: 20%;
+    margin-top: 1%;
     height: 300vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-bottom: 40%;
+    margin-bottom: 30%;
   }
   
   #reaAff {
     height: 100vh;
     width: 100%;
+   
   }
   
   #cadreIll {
@@ -401,12 +407,12 @@ display: none;
   
   #reaTech {
     margin-top: 20%;
-    padding: 2px;
+    padding: 2%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: space-between;
-    width:100%
+    width:120%
   }
   
   #photoRea {
@@ -416,12 +422,14 @@ display: none;
   .reaTechLine {
     color: white;
     font-size: small;
+    margin-top: 5%;
   }
   
   .reaTechLine:before {
     content: ">";
     color: #61dafb;
     margin-right: 0px;
+  
   }
   
   .reatechPoint {
@@ -433,8 +441,8 @@ display: none;
     font-size: large;
     color: white;
     width: 45vw;
-    margin-top: 2%;
-    height: 100vh;
+    margin-top: 8%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -444,26 +452,27 @@ display: none;
   #scol {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: space-between;
     height: 60%;
-    margin-top: 20%;
+    margin-top: 15%;
     width:90vw;
     font-size: small;
+    padding: 3%;
   }
   
   
 #page5 {
   font-size: large;
   width: 55vw;
-  margin-top: 2%;
+  margin-top: 1%;
   background-color: #0a192f;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 200vh;
-  margin-bottom: 20vh;
+  height: 50vh;
+  margin-bottom: 10vh;
 }
 
 .title2 {
@@ -474,13 +483,13 @@ display: none;
   width: 100%;
   font-size: large;
   white-space: nowrap;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
   color: #61dafb;
 }
 
 #messageAccroche {
-  margin-bottom: 5%;
-  font-size: medium;
+  margin-bottom: 0%;
+  font-size: small;
   color: white;
 }
 
