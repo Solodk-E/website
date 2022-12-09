@@ -6,7 +6,7 @@ import "../src/Design/Responsive-1024.css";
 // import "../src/Design/Responsive-480.css";
 // import "../src/Design/Responsive-400.css";
 import "../src/Design/Responsive-360.css";
-// import "../src/Design/Responsive-330.css";
+import "../src/Design/Responsive-375.css";
 import Navbar from "../src/Components/Navbar";
 import Social from "../src/Components/Social";
 import Mail from "../src/Components/Mail";
